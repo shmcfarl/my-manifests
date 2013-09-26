@@ -1,3 +1,7 @@
+# This file is for the VMware Fusion setup for the Grizzly COSI AIO using 'rbd' (Ceph) as the glance backend
+# Working networking setup: Build = 192..168.80.137, Control(AIO)=192.168.80.200
+# Quantum setup: Public: 192.168.81.0/24, 192.168.81.101-254, no DHCP Private: 10.0.0.0/24, DNS:8.8.8.8
+# ---------------------------------------------------------------------------------------------------------------
 # This document serves as an example of how to deploy
 # basic multi-node openstack environments.
 # In this scenario Quantum is using OVS with GRE Tunnels
